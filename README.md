@@ -1,12 +1,12 @@
-#  RTP Payload for Haptics
+#  RTP Payload for V-DMC
 
-This repository is used for discussion of a personal draft for RTP Payload for Haptics (draft-hsyang-avtcore-rtp-haptics). 
+This repository is used for discussion of a personal draft for RTP Payload for V-DMC (draft-hsyang-avtcore-rtp-vdmc). 
 
 * Current draft in [IETF Datatracker](https://datatracker.ietf.org/doc/draft-hsyang-avtcore-rtp-haptics/).
 * [Current version draft in Github] (https://github.com/7439henry/draft-hsyang-avtcore-rtp-haptics/blob/main/Draft/draft-hsyang-avtcore-rtp-haptics-00.txt)
 
 ## Copy of abstract
-This memo describes an RTP payload format for the MPEG-I haptic data. A haptic media stream is composed of MIHS units including a MIHS unit header and zero or more MIHS packets.  The RTP payload header format allows for packetization of a MIHS unit in an RTP packet payload as well as fragmentation of a MIHS unit into multiple RTP packets.
+This memo outlines RTP payload formats for the Video-based Dynamic Mesh Coding (V-DMC), which comprises several types of components, such as a basemesh, AC-based displacements, 2D representations of attributes, and an atlas.  This document focuses on describing the basemesh and displacement, while the RTP payload formats for the atlas and attributes are addressed in other documents.  The RTP payload header formats enable the packetization of a basemesh or displacement Network Abstraction Layer (NAL) unit in an RTP packet payload as well as fragmentation of a NAL unit into multiple RTP packets.
 
 ## Building the draft
 
